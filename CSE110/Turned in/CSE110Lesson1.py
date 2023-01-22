@@ -1,0 +1,6 @@
+color = input('What is your favorite color? ')
+print('Wow! I did not know your favorite color is '+ color +'! That is an amazing color.') 
+time = input('How long have you liked ' + color + '? ')
+print('Oh, you have liked ' + color + ' for ' + time + '? Awesome!')
+name = input('Before you go, can you tell me your name? ')
+print('It was so nice to get to know your favorite color, ' + name + '! I hope you have a wonderful day.')
