@@ -2,19 +2,19 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-#nav a {
+nav a {
     text-align: center;
     color: blue;
     text-decoration: none;
 }
-#nav a:hover {
+nav a:hover {
     background-color: aliceblue;
     color: aqua;
 }
 .home-title {
     color: violet;
 }
-#h4 {
+h4 {
     color: chartreuse;
 }
 .book, .join {
@@ -32,21 +32,21 @@
 .msg p {
     color: brown;
 }
-#footer {
+footer {
     background-color: black;
     color: aqua;
 }
-#footer a {
+footer a {
     color: slateblue;
     text-decoration: none;
 }
-#footer a:hover {
+footer a:hover {
     color: seagreen;
 }
-#footer p {
+footer p {
     font-size: 1.2em;
 }
-#footer p a:hover {
+footer p a:hover {
     text-decoration: underline;
 }    
 #hero-msg h1, #hero-msg h4 {
@@ -55,17 +55,17 @@
 .button-box {
     text-align: center;
 }
-#main section {
+main section {
     text-align: center;
 }
 #background {
     height: 725px;
     background-color: beige;
 }
-#body {
+body {
     background-color: #fcfbfb;
 }
-#header {
+header {
     background-color: blanchedalmond;
 }
 .msg {
@@ -76,6 +76,7 @@
 }
 .icon {
     width: 80px;
+
 }
 #hero-img {
     width: 100%;
