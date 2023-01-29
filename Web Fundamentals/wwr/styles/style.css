@@ -18,7 +18,7 @@
 }
 #book, .join {
     background-color: antiquewhite;
-    color: yellow;
+    color: black;
 }
 #book:hover, .join:hover {
     background-color: azure;
