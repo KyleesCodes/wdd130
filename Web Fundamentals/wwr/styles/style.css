@@ -10,24 +10,24 @@
     background-color: aliceblue;
     color: aqua;
 }
-#home-title {
+.home-title {
     color: violet;
 }
 #h4 {
     color: chartreuse;
 }
-#book, .join {
+.book, .join {
     background-color: antiquewhite;
     color: black;
 }
-#book:hover, .join:hover {
+.book:hover, .join:hover {
     background-color: azure;
     color: teal;
 }
-#msg h2 {
+.msg h2 {
     color: steelblue;
 }
-#msg p {
+.msg p {
     color: springgreen;
 }
 #footer {
@@ -40,13 +40,10 @@
 #footer a:hover {
     color: seagreen;
 }
-#hero-msg h1 {
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
-#hero-msg h4 {
-    text-align: center;
-}
-#button-box {
+.button-box {
     text-align: center;
 }
 #main section {
@@ -62,6 +59,6 @@
 #header {
     background-color: blanchedalmond;
 }
-#msg {
+.msg {
     background-color: bisque;
 }
