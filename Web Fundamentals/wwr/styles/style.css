@@ -13,9 +13,11 @@ nav a:hover {
 }
 .home-title {
     color: violet;
+    text-align: center;
 }
 h4 {
     color: chartreuse;
+    text-align: center;
 }
 .book, .join {
     background-color: antiquewhite;
