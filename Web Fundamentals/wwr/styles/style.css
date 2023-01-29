@@ -2,3 +2,45 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+#nav a {
+    text-align: center;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+#button-box {
+    text-align: center;
+}
+#main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+#body {
+    background-color: #fcfbfb;
+}
+#header {
+    background-color: blanchedalmond;
+}
+#nav a:hover {
+    background-color: aliceblue;
+}
+#book, .join {
+    background-color: antiquewhite;
+}
+#book:hover, .join:hover {
+    background-color: azure;
+}
+#background {
+    background-color: beige;
+}
+#msg {
+    background-color: bisque;
+}
+#footer {
+    background-color: black;
+}
