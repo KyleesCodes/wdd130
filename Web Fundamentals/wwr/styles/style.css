@@ -4,6 +4,41 @@
 }
 #nav a {
     text-align: center;
+    color: blue;
+}
+#nav a:hover {
+    background-color: aliceblue;
+    color: aqua;
+}
+#home-title {
+    color: violet;
+}
+#h4 {
+    color: chartreuse;
+}
+#book, .join {
+    background-color: antiquewhite;
+    color: yellow;
+}
+#book:hover, .join:hover {
+    background-color: azure;
+    color: teal;
+}
+#msg h2 {
+    color: steelblue;
+}
+#msg p {
+    color: springgreen;
+}
+#footer {
+    background-color: black;
+    color: aqua;
+}
+#footer a {
+    color: slateblue;
+}
+#footer a:hover {
+    color: seagreen;
 }
 #hero-msg h1 {
     text-align: center;
@@ -19,6 +54,7 @@
 }
 #background {
     height: 725px;
+    background-color: beige;
 }
 #body {
     background-color: #fcfbfb;
@@ -26,21 +62,6 @@
 #header {
     background-color: blanchedalmond;
 }
-#nav a:hover {
-    background-color: aliceblue;
-}
-#book, .join {
-    background-color: antiquewhite;
-}
-#book:hover, .join:hover {
-    background-color: azure;
-}
-#background {
-    background-color: beige;
-}
 #msg {
     background-color: bisque;
-}
-#footer {
-    background-color: black;
 }
