@@ -1,49 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Open+Sans:wght@300&display=swap');
+
+:root{
+    --heading-font: "Bona Nova";
+    --paragraph-font: "Open Sans", Helvetica, sans-serif;
+}  
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 nav a {
     text-align: center;
-    color: blue;
+    color: #124559;
     text-decoration: none;
+    font-family: var(--paragraph-font);
+    padding: 35px;
 }
 nav a:hover {
-    background-color: aliceblue;
-    color: aqua;
+    background-color: #124559;
+    color: #AEC3B0;
 }
 .home-title {
-    color: violet;
+    color: #124559;
     text-align: center;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
-    color: chartreuse;
+    color: black;
     text-align: center;
+    font-family: var(--paragraph-font);
 }
 .book, .join {
-    background-color: antiquewhite;
-    color: black;
+    background-color: #AEC3B0;
+    color: #124559;
     text-decoration: none;
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: azure;
-    color: teal;
+    background-color: #124559;
+    color: #AEC3B0;
 }
 .msg h2 {
-    color: steelblue;
+    color: #EFF6E0;
+    font-family: var(--heading-font);
 }
 .msg p {
-    color: brown;
+    color: #AEC3B0;
+    font-family: var(--paragraph-font);
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
-    background-color: black;
-    color: aqua;
+    background-color: #124559;
+    color: #EFF6E0;
+    font-family: var(--paragraph-font);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
-    color: slateblue;
+    color: #AEC3B0;
     text-decoration: none;
 }
 footer a:hover {
-    color: seagreen;
+    color: #AEC3B0;
 }
 footer p {
     font-size: 1.2em;
@@ -59,27 +84,50 @@ footer p a:hover {
 }
 main section {
     text-align: center;
+    font-family: var(--paragraph-font);
 }
 #background {
     height: 725px;
-    background-color: beige;
+    background-color: #AEC3B0;
 }
 body {
     background-color: #fcfbfb;
+    margin: 0;
+    padding: 0;
 }
 header {
-    background-color: blanchedalmond;
+    background-color: #AEC3B0;
 }
 .msg {
-    background-color: bisque;
+    background-color: #124559;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
-
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #AEC3B0;
+}
+main section img {
+    box-sizing: border-box;
 }
