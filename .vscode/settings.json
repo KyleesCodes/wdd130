@@ -1,0 +1,13 @@
+{
+    "python.analysis.extraPaths": [
+        "./extensions/ms-python.python-2022.20.2/pythonFiles/testing_tools/adapter",
+        "./extensions/ms-python.python-2022.20.2/pythonFiles/lib/jedilsp/jedi/plugins",
+        "./extensions/ms-python.python-2022.20.2/pythonFiles/testing_tools/adapter",
+        "./extensions/ms-python.python-2023.2.0/pythonFiles/testing_tools/adapter"
+    ],
+    "python.testing.pytestArgs": [
+        "CSE111"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
