@@ -1,0 +1,64 @@
+Web development basics:
+    The internet protocall is called the TCP/IP, which stands for transmission control protocall, internet protocall.
+    www stands for World Wide Web. http stands for hyper text transfer protocall.
+    When a web user opens a website or app, a request is made to the web server that holds those files. The web user is referred to as the client (front end) while the server is referred to as the back end.
+    URL stands for uniform resource locator. The URL matches up to an ip address with the DNS (domain name system).
+    The server the sends the files back to the client.
+    Developers often use hosting companies that already have servers to store the files.
+    Different languages run on the front end and back end.
+    HTML and CSS are front end languages.
+    Python and PHP are back end languages.
+    Try to make sites small and effectient so they can be run on various devices, also try to make them accessible to those with impairments.
+
+HTML basics:
+    HTML stands for Hyper Text Markup Language, which is a code used to structure a web page and its content.
+    HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way.
+    The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
+    If we wanted a line to stand by itself, we could specify that it is a paragrah by enclosing it in paragraph tags:
+        <p> cat is very grumpy</p>
+    The first p wrapped in  angle brackets is the opening tag, followed by the content, and finished with a closing tag. This is an element.
+    Elements can also have attributes that look like:
+        <p class="editor-note">My cat is very grumpy</p>
+    Attributes contain extra information about the element that you don't want to appear in the actual content.
+    Here, class is the attribute name and editor-note is the attribute value. The class attribute allows you to give the element a non-unique identifier that can be used to target it with style information and other things. Some attribute have no value, such as required.
+    Attributes that set a value always have:
+        1. A space between it and the element name (or the previous attribute, if the element already has one or more attributes).
+        2. The attribute name followed by an equal sign.
+        3. The attribute value wrapped by opening and closing quotation marks.
+    You can put elements inside other elements too- this is called nesting. If we wanted to state that our cat is very grumpy, we could wrap the word "very" in a <strong></strong> element.
+        <p>My cat is <strong>very</strong> grumpy.</p>
+    You do however need to make sure that your elements are properly nested. The elements have to open and close correctly so that they are clearly inside or outside one another.
+    Some elements have no content and are called void elements. Take this element example:
+        <img src="images/firefox-icon.png" alt="My test image" />
+    This contains two attributes, but ther is no closing tag and no inner content. This is because and image element doesn't wrap content to affect it. 
+        <!DOCTYPE html> Is a required preamble. Doctypes were meant to act as links to a set of rule that the HTML page had to follow, though these days they don't do much and are basically just needed to make sure your document behaves correctly. 
+        The html element wraps all the content on the entire page and is sometimes known as the root element. It also includes the lang attribute, setting the primary language of the document.
+        The head elemtn acts as a container for all the stuff you want to include on the HTML page that isn't the content you are showing to your page's viewers. 
+        <meta charset="utf-8"> is an element that sets the character set your document should use to UTF-8 which includes most characters from the vast majority of written languages. 
+        <meta name="viewport" content="width=device-width"> ensures the page renders at the width of the viewport, preventing mobile browsers from rendering pages wider than the viewport and then shrinking them down.
+        The title element sets the title of your page.
+        The body element contains all the content that you want to show to web users when they visit your page.
+    The src attribute contains the path to our image file in the img element. We can also add alt to add a description of the image for accessibility.
+    Heading elements allow you to specify that certain parts of content are headings/subheadings. There are 6 heading levels to use.
+    Anything in <!-- --> is an HTML comment and will be ignored by the browser when rendering, useful in group projects.
+    A lot of the web's content is lists and HTML has special elements for these. There are at least 2 most common list type elements:
+        Unordered lists are for lists when the order of the items doesn't matter, such as a shopping list. These are wrapped in the <ul></ul> element.
+        Ordered lists are for lists where the order of the items does matter. These are wrapped in an <ol></ol> element.
+    Each item inside the list is put inside an <li></li> element.
+    To add a link, we need to use a simple element <a></a> "a" being the short form for "anchor". To make text within your paragraph into a link :
+        Choose some text.
+        Wrap the text in an a element.
+        Give the a element an href attribute.
+        Fill in the value of this attribute with the web address that you want to link to.
+
+HTML elements and attributes:
+    Header, main and footer are child elements of the body element.
+    Nav is a child element of the header, and links are child elements of the nav element.
+    Semantic tags describe the content you are adding to the page.
+
+Image file types:
+    Bitmap (BMP): Don't use this on the web
+    GIF: Used for simple animations. Only supports 256 colors. Allow for transparency, but don't support alpha transparency
+    PNG: Great format if you need transparency, specifically alpha transparency. 
+    JPEG: Extremely common. Supports compression. Great, flexible format.
+    SVG: Scalable vector graphics. Aren't resolution dependant. You can scale them infinitely with great results. Mostly used for shapes, text, sketches, logos.
