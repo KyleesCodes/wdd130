@@ -70,3 +70,149 @@ Image Optimization:
         Resize image to the max size you actually need.
         Reduce the quality to an acceptable level to reduce file size.
     You can use Squoosh.app. Click on the button in the middle of the page, then select the image from computer. In the edit panel on the right, toggle resize and change the widtch to ~200 pixels. Under compress, change the fily type to WebP. Under compress, change quality to ~70%. Note the overall change in file size displayed in those panels. Click download button (bottom right) to save the image to computer.
+
+HTML Documents:
+    All HTML documents mus start with a docutmen type declaration: <!DOCTYPE html>
+    The HTML doucment itself begins with <html> and ends with </html>. 
+    The visible part of the HTML document is between <body> and </body>. 
+
+The <!DOCTYPE> declaration:
+    The <!DOCTYPE> declaration represents the document type, helps browsers to display web pages correctly.
+    It must only appear once, at the top of the page (before any HTML tags).
+    The <!DOCTYPE> declaration is not case sensitive.
+    The <!DOCTYPE> declaration for HTML5 is:
+        <!DOCTYPE html>
+
+HTML headings:
+    HTML headings are defined with the <h1> to <h6> tags.
+    <h1> defines the most important heading. <h6> defines the least important heading.
+
+HTML paragraphs:
+    HTML paragraphs are defined with the <p> tag.
+        
+HTML links:
+    HTML links are defined with the <a> tag.
+    The link's destination is specified in the href attribute.
+    Attributes are used to provide additional information about HTML elements.
+
+HTML images:
+    HTML images are defined with the <img> tag.
+    The source file (src), alternative text (alt), width, and height are provided as attributes.
+
+What are Semantic Elements?:
+    A semantic element clearly describes its meaning to both the browser and the developer.
+    Examples of non-semantic elements: <div> and <span> - Tells nothing about its content
+    Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+
+Semantic elements in HTML: 
+    Many web sites contain HTML code like : <div id="nav"><div class="header"><div id="footer"> to indicate navigation, header, and footer. 
+    In HTMl there are some semantic elements that can be used to define different parts of a web page:
+        <article></article>
+        <aside></aside>
+        <details></details>
+        <figcaption></figcaption>
+        <figure></figure>
+        <footer></footer>
+        <header></header>
+        <main></main>
+        <mark></mark>
+        <nav></nav>
+        <section></section>
+        <summary></summary>
+        <time></time>
+
+HTML <section> element: 
+    The <section> element defines a section in a document.
+    According to WC3's HTML documentation: "A section is a thematic grouping of content, typically with a heading."
+    Examples of where a <section> element can be used:
+        Chapters
+        Introduction
+        News items
+        Contact information
+    A web page could normally be split into sections for introduction, content, and contact information.
+
+HTML <article> element: 
+    The <article> element specifies independent, self-contained content.
+    An article should make sense on its own, and should be possible to distribute it independently from the rest of the web site.
+    Examples of where it can be used:
+        Forum posts
+        Blog posts
+        User comments
+        Product cards
+        Newspaper articles
+    
+Nesting <article> in <section> or vice versa:
+    The <article> element specifies independent self-contained content.
+    The <section> element defines section in a document.
+    You will find HTML pages with section elements containing article elements and vice versa.
+
+HTML <header> element: 
+    The <header> element represents a container for introductory content or a set of navigational links.
+    A <header> element typically contains:
+        One or more heading elements
+        Logo or icon 
+        Authorship information 
+    
+HTML <footer> element: 
+    The <footer> element defines a footer for a document or section. 
+    A <footer> element typically contains:
+        Authorship information
+        Copyright information
+        Contact information
+        Sitemap
+        Back to top links
+        Related documents
+    You can have several <footer> elements in one document.
+HTML <nav> element:
+    The <nav> element defines a set of naigation links.
+
+HTML <aside> element:
+    The <aside> element defines some content aside from the content it is placed in (like a sidebar).
+    The <aside> content should be indirectly related to the surrounding content.
+
+HTML <figure> and <figcaption> elements:
+    The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+    The <figcaption> tag defines a caption for a <figure> element.
+    The <figcaption> element can be placed as the first or as the last child of a <figure> element.
+    The <img> element defines the actual image/illustration. 
+    
+Why semantic elements?:
+    According to the WC3: "A semantic web allows data to be shared and reused accross applications, enterprises, and communities."
+
+Accessibility concerns:
+    Navigation:
+        A common navigation technique for users of screen reading software is to quickly jump from heading to heading in order to determine the content of the page. Because of this, it is important to not skip one or more heading levels. Doing so may create confusion, as the person navigating this way may be left wondering where the missing heading is.
+        
+    Nesting:
+        Headings may be nested as subsections to refelct the organization of the content of the page. Most screen readers can also generate an ordered list of all the headings on a page, which can help a person quickly determine the hierachy of the content.
+        When headings are nested, heading levels may be "skipped" when closing a subsection.
+
+    Labeling section content:
+        Another common navigation technique for users of screen reading software is to generate a list of sectioning content and use it to determine the page's layout.
+        Sectioning content can be labeled using a combination of the aria-labelledby and id attributes, with the label concisely describing the purpose of the section. This technique is useful on the same page.
+
+Block-level content:
+    In CSS, content that participates in block layout is called block-level content.
+    Boxes are laid out one after the other, vertically, beginning at the top of a containing block. Each box's left outer edge touches the left edge of the containing block.
+    A block-level element always starts on a new line. It occupies the entire horizontal space of its parent element and vertical space equal to the height of its contents.
+
+Inline-level content:
+    Contnet that participates in inline layout is called inline-level content. Most text sequences, replaced elements, and generated content are inline-level by default.
+    A mixed stream of text, replaced elements, and other inline boxes are laid out by fragmenting them into a stack of line boxes. Withing each line box, inline-level boxes are aligned to each other vertically or horizontally, depending on the writing mode. 
+    Typically, they are aligned by the baselines of their text, though this can be changed with CSS.
+
+Block vs inline elements:
+        div, header, main, footer, nav, p, ul, li, section, article, form, and the h elements are examples of block elements.
+        a, img, span, button, and label are examples of inline elements.
+        You can use this code to make a change between block or inline element structures:
+            main img {
+                display: block;
+            }
+
+            #warm_list li {
+                display: inline;
+            }
+        Inline-block can create boxes next to each other. It is like making block elements interact as inline elements.
+        Two ways to center things are text-align: center; and margin: 0 auto;.
+        text-align center will align the contents of the box.
+        margin 0 auto will center the box itself.
