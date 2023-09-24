@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@500&family=Dosis:wght@300&family=Fira+Sans+Condensed&display=swap');
+
+:root {
+    --primary-color: #0081AF;
+    --secondary-color: #EABA6B;
+    --accent1-color: #00ABE7;
+    --accent2-color: #EAD2AC;
+
+    --heading-font: 'Dosis', serif;
+    --paragraph-font: 'Abel', serif;
+
+    --nav-background-color: #00ABE7;
+    --nav-link-color: #EAD2AC;
+    --nav-hover-link-color: #00ABE7;
+    --nav-hover-background-color: #EAD2AC;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: white;
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
