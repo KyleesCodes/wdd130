@@ -49,7 +49,7 @@ article {
     padding: 12px;
 }
 article p {
-    color: #fff;
+    color: white;
     font-family: var(--paragraph-font);
     text-align: center;
 }
