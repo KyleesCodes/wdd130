@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@500&family=Dosis:wght@300&family=Fira+Sans+Condensed&display=swap');
+
+:root {
+    --primary-color: #0081AF;
+    --secondary-color: #EABA6B;
+    --accent1-color: #EAD2AC;
+    --accent2-color: #00ABE7;
+
+    --heading-font: 'Dosis', serif;
+    --paragraph-font: 'Abel', serif;
+
+    --nav-background-color: #00ABE7;
+    --nav-link-color: #EAD2AC;
+    --nav-hover-link-color: #00ABE7;
+    --nav-hover-background-color: #EAD2AC;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+.background-image {
+    width: 100%;
+    max-height: 600px;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position: absolute;
+    top: 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 107%;
+    text-align: center;
+}
+article {
+    position: absolute;
+    width: 80%;
+    top: 10%;
+    left: 8%;
+    background-color: var(--nav-background-color);
+    opacity: 0.9;
+    padding: 12px;
+}
+article p {
+    color: #fff;
+    font-family: var(--paragraph-font);
+    text-align: center;
+}
+article img {
+    float: right;
+    height: 180px;
+}
+nav {
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+}
+a img {
+    display: block;
+    width: 35px;
+}
