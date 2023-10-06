@@ -5,12 +5,18 @@
 }
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 h1 {
     color: steelblue;
@@ -26,12 +32,12 @@ main img {
 p {
     padding: 0;
 }
-main {
-    max-width: 840px;
-}
 aside {
-    width: 20em;
+    width: 20rem;
     text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 aside img {
     width: 200px;
@@ -42,7 +48,19 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
 /* Class Selectors */
+.grid {
+    display: grid;
+    align-items: center;
+}
 .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
