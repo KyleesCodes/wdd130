@@ -96,3 +96,8 @@ header img {
 .group img {
     max-width: 400px;
 }
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
