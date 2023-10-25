@@ -101,3 +101,38 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+.index {
+    position: absolute;
+    width: 80%;
+    top: 20%;
+    left: 8%;
+    background-color: var(--nav-background-color);
+    opacity: 0.9;
+    padding: 12px;
+}
+.index p {
+    color: white;
+    font-family: var(--paragraph-font);
+    text-align: center;
+    padding-top: 8%;
+}
+.index img {
+    float: right;
+    height: 180px;
+}
+.trips {
+    font-size: 1.2rem;
+    display: flex; 
+}
+.trips a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+}
+.itable img {
+    max-width: 300px;
+}
+.triptable img {
+    max-width: 250px;
+    padding: 5px;
+}
